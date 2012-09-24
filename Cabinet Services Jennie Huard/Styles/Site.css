@@ -1,0 +1,406 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: Goudy Old Style;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+#Espace
+{
+    position:relative;
+    width:100%;
+    margin:20px;
+    background-image:#235234;
+    z-index:10000000000;
+}
+
+
+.page
+{
+    width: 80%;
+    min-width: 1000px;
+    background-color: #2A2A2A;
+    margin: 0px auto 0px auto;
+    border: 1px solid #496077;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	overflow:hidden;
+}
+
+.header
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.header h1
+{
+    position: relative;
+    z-index:100;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 2px 12px;
+    margin: 12px 20px 20px 20px;
+    min-height: 420px;
+    background-color:White;
+    -moz-border-radius: 0px 0px 6px 6px;
+	-webkit-border-radius: 0px 0px 6px 6px;
+	border-radius: 0px 0px 6px 6px;
+	
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+#MenuGlobal a{
+    text-decoration:none;
+    color: #999;
+}
+
+#MenuGlobal ul li{
+	display: inline-block;
+	/*display:block;*/
+	border: 1px solid #222;
+	border-left:none;
+	/*float: left;*/
+	padding:10px;
+	margin:-2px;
+	width: 150px;
+	text-align:center;
+	background-color: #2A2A2A;
+	background-image: -moz-linear-gradient(#444, #111); 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));	
+	background-image: -webkit-linear-gradient(#444, #111);	
+	background-image: -o-linear-gradient(#444, #111);
+	background-image: -ms-linear-gradient(#444, #111);
+	background-image: linear-gradient(#444, #111);
+	font: bold 12px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+	color: #999;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+#MenuGlobal ul a:first-child li{
+	border-left: 1px solid #222;
+}
+
+#MenuGlobal ul ul li:first-child{
+	border-top: none;
+	border-left: 1px solid #111;
+}
+
+#MenuGlobal ul ul a:last-child li{
+	-moz-border-radius: 0 0 7px 7px;
+	-webkit-border-radius: 0 0 7px 7px;
+	border-radius: 0 0 7px 7px;
+	border-bottom: 1px solid #111;
+}
+
+#MenuGlobal ul ul li{
+	position: relative;
+	border: 1px solid #111;
+	border-top:none;
+	border-bottom:none;
+	float: none;
+	width: 100%;
+	margin:0;
+	/* Navigateurs récents */
+	    background: -webkit-gradient(
+	        linear,
+	        left top, right top,
+	        from(#333),
+	        to(#222)
+	    );
+	    background: -webkit-linear-gradient(
+	        left,
+	        #333,
+	        #222
+	    );
+	    background: -moz-linear-gradient(
+	        left,
+	        #333,
+	        #222
+	    );
+	    background: -o-linear-gradient(
+	        left,
+	        #333,
+	        #222
+	    );
+	    background: linear-gradient(
+	        left,
+	        #333,
+	        #222
+	    );
+	-moz-border-radius: 0 ;
+	-webkit-border-radius: 0 ;
+	border-radius: 0 ;
+}
+
+#MenuGlobal {
+	width: 100%;
+	text-decoration : none;
+	color: White;
+	margin: 0px;
+	padding: 0px;
+}
+
+#MenuGlobal ul ul{
+	position: absolute;
+	margin:-150px 0 0 0;
+	z-index:-1;
+	width: 130px;
+	-webkit-transition: all 0.75s ease-out; 
+	-moz-transition: all 0.75s ease-out;
+	-o-transition: all 0.75s ease-out; 
+	-ms-transition: all 0.75s ease-out; 
+	transition: all 0.75s ease-out;
+}
+
+#MenuGlobal ul{
+	text-align:center;
+	position:relative;
+	z-index:5;
+	padding:0;
+}
+
+#MenuGlobal ul li:hover ul{
+	margin:10px 0 0 0;
+}
+
+#MenuGlobal ul ul li:hover{
+	background: -webkit-gradient(
+	        linear,
+	        left top, right top,
+	        from(#0299d3),
+	        to(#016B94)
+	    );
+	    background: -webkit-linear-gradient(
+	        left,
+	        #0299d3,
+	        #016B94
+	    );
+	    background: -moz-linear-gradient(
+	        left,
+	        #0299d3,
+	        #016B94
+	    );
+	    background: -o-linear-gradient(
+	        left,
+	        #0299d3,
+	        #016B94
+	    );
+	    background: linear-gradient(
+	        left,
+	        #0299d3,
+	        #016B94
+	    );
+		text-shadow: 0 1px 0 #015676;
+}
+
+#MenuGlobal ul li:hover{
+	color: #fafafa;
+}
+
+#MenuGlobal ul li:hover a{
+	color: #fafafa;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: center;
+    width:100%;
+    background-color: #2A2A2A;
+    border-radius: 10px 10px 10px 10px;
+    position:relative;
+    z-index:100;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
