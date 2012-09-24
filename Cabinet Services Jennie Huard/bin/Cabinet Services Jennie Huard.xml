@@ -38,9 +38,25 @@ Contrôle HeadContent.
 Champ généré automatiquement.
 Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
 </remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.BoutonConnexion">
+	<summary>
+Contrôle BoutonConnexion.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
 </member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Accueil">
 	<summary>
 Contrôle lb_Accueil.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.LinkButton1">
+	<summary>
+Contrôle LinkButton1.
 </summary>
 	<remarks>
 Champ généré automatiquement.

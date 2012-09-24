@@ -23,6 +23,15 @@ Partial Public Class Site
     Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
     '''<summary>
+    '''Contrôle BoutonConnexion.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents BoutonConnexion As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
     '''Contrôle lb_Accueil.
     '''</summary>
     '''<remarks>

@@ -18,6 +18,7 @@
                 <h1>
                     Cabinet de services financiers Jennie Huard
                 </h1>
+                <asp:LinkButton ID="BoutonConnexion" runat="server" PostBackUrl="~/Accueil.aspx"><div id="Connexion">Connexion</div></asp:LinkButton>
             </div>
             <div class="clear hideSkiplink">
                 	<div id="MenuGlobal">
@@ -28,7 +29,7 @@
 					                <asp:LinkButton ID="lb_AssuranceVie" runat="server" PostBackUrl="~/Assurances/AssuranceVie.aspx"><li >Assurance vie</li></asp:LinkButton><asp:LinkButton ID="lb_AssuranceMaladiesGraves" runat="server" PostBackUrl="~/Assurances/AssuranceMaladie.aspx"><li >Assurance maladies graves</li></asp:LinkButton><asp:LinkButton ID="lb_AssuranceInvalidite" runat="server" PostBackUrl="~/Assurances/AssuranceInvalidite.aspx"><li>Assurance invalidité</li></asp:LinkButton><asp:LinkButton ID="lb_AssurancePrets" runat="server" PostBackUrl="~/Assurances/AssurancePret.aspx"><li>Assurance prêts</li></asp:LinkButton>
 				                </ul>
                             </li>
-                            <asp:LinkButton ID="lb_Placement" runat="server" PostBackUrl="~/Placement.aspx"><li>Placement</li></asp:LinkButton>
+                            <asp:LinkButton ID="lb_Placement" runat="server" PostBackUrl="~/Placement.aspx"><li>Placements</li></asp:LinkButton>
                             <asp:LinkButton ID="lb_APropos" runat="server" PostBackUrl="~/APropos.aspx"><li>À propos de nous</li></asp:LinkButton>
                             <asp:LinkButton ID="lb_Contacts" runat="server" PostBackUrl="~/Contact.aspx"><li>Contactez-nous</li></asp:LinkButton>
 		                </ul>
