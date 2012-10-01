@@ -6,44 +6,44 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>Création de compte:</h2>
     <br />
-    <asp:Label ID="lbl_nom" runat="server" Text="Nom :"></asp:Label>
-    <asp:TextBox ID="tb_NomUtil" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewNom" runat="server" Text="Nom :"></asp:Label>
+    <asp:TextBox ID="tb_NewNomUtil" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lb_prenom" runat="server" Text="Prénom :"></asp:Label>
-    <asp:TextBox ID="tb_Prenom" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewPrenom" runat="server" Text="Prénom :"></asp:Label>
+    <asp:TextBox ID="tb_NewPrenom" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lbl_DateNaissance" runat="server" Text="Date de naissance :"></asp:Label>
-    <asp:TextBox ID="tb_DateNaissance" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewDateNaissance" runat="server" Text="Date de naissance :"></asp:Label>
+    <asp:TextBox ID="tb_NewDateNaissance" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lb_TypeClient" runat="server" Text="Type de client :"></asp:Label>
-    <asp:RadioButton ID="rb_Corporatif" runat="server" Text="Corporatif" />
-    <asp:RadioButton ID="rb_Personnel" runat="server" Text="Personnel" />
-    <asp:RadioButton ID="rb_TravailleurAutonome" runat="server" 
+    <asp:Label ID="lbl_NewTypeClient" runat="server" Text="Type de client :"></asp:Label>
+    <asp:RadioButton ID="rb_NewCorporatif" runat="server" Text="Corporatif" />
+    <asp:RadioButton ID="rb_NewPersonnel" runat="server" Text="Personnel" />
+    <asp:RadioButton ID="rb_NewTravailleurAutonome" runat="server" 
         Text="Travailleur autonome" />
     <br />
-    <asp:Label ID="lb_CodePostal" runat="server" Text="Code postal :"></asp:Label>
-    <asp:TextBox ID="tb_CodePostal" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewCodePostal" runat="server" Text="Code postal :"></asp:Label>
+    <asp:TextBox ID="tb_NewCodePostal" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lb_Ville" runat="server" Text="Ville :"></asp:Label>
-    <asp:TextBox ID="tb_Ville" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewVille" runat="server" Text="Ville :"></asp:Label>
+    <asp:TextBox ID="tb_NewVille" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lbl_Adresse" runat="server" Text="Adresse :"></asp:Label>
-    <asp:TextBox ID="tb_Adresse" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewAdresse" runat="server" Text="Adresse :"></asp:Label>
+    <asp:TextBox ID="tb_NewAdresse" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lb_Pays" runat="server" Text="Pays :"></asp:Label>
-    <asp:TextBox ID="tb_Pays" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewPays" runat="server" Text="Pays :"></asp:Label>
+    <asp:TextBox ID="tb_NewPays" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lbl_NumTel" runat="server" Text="Numéro de téléphone :"></asp:Label>
-    <asp:TextBox ID="tb_NumTel" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewNumTel" runat="server" Text="Numéro de téléphone :"></asp:Label>
+    <asp:TextBox ID="tb_NewNumTel" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="lb_Courriel" runat="server" Text="Adresse courriel :"></asp:Label>
-    <asp:TextBox ID="tb_Courriel" runat="server"></asp:TextBox>
+    <asp:Label ID="lbl_NewCourriel" runat="server" Text="Adresse courriel :"></asp:Label>
+    <asp:TextBox ID="tb_NewCourriel" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="Label1" runat="server" Text="Statut marital :"></asp:Label>
-    <asp:RadioButton ID="rb_Celibataire" runat="server" Text="Célibataire" />
-    <asp:RadioButton ID="rb_Marie" runat="server" Text="Marié(e)" />
-    <asp:RadioButton ID="rb_Veuf" runat="server" Text="Veuf/Veuve" />
-    <asp:RadioButton ID="EnCouple" runat="server" Text="En couple" />
+    <asp:Label ID="lbl_NewStatutMarital" runat="server" Text="Statut marital :"></asp:Label>
+    <asp:RadioButton ID="rb_NewCelibataire" runat="server" Text="Célibataire" />
+    <asp:RadioButton ID="rb_NewMarie" runat="server" Text="Marié(e)" />
+    <asp:RadioButton ID="rb_NewVeuf" runat="server" Text="Veuf/Veuve" />
+    <asp:RadioButton ID="rb_NewEnCouple" runat="server" Text="En couple" />
     <br />
     <br />
     <asp:Button ID="btn_CreerCompte" runat="server" Text="Créer le compte" />

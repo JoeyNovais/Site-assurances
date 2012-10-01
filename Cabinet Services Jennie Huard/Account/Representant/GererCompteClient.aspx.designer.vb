@@ -32,13 +32,13 @@ Partial Public Class _Default
     Protected WithEvents tb_NomUtil As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle lb_prenom.
+    '''Contrôle lbl_prenom.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents lb_prenom As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_prenom As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle tb_Prenom.
@@ -68,13 +68,13 @@ Partial Public Class _Default
     Protected WithEvents tb_DateNaissance As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle lb_TypeClient.
+    '''Contrôle lbl_TypeClient.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents lb_TypeClient As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_TypeClient As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle rb_Corporatif.
@@ -104,13 +104,13 @@ Partial Public Class _Default
     Protected WithEvents rb_TravailleurAutonome As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Contrôle lb_CodePostal.
+    '''Contrôle lbl_CodePostal.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents lb_CodePostal As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_CodePostal As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle tb_CodePostal.
@@ -122,13 +122,13 @@ Partial Public Class _Default
     Protected WithEvents tb_CodePostal As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle lb_Ville.
+    '''Contrôle lbl_Ville.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents lb_Ville As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_Ville As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle tb_Ville.
@@ -158,13 +158,13 @@ Partial Public Class _Default
     Protected WithEvents tb_Adresse As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle lb_Pays.
+    '''Contrôle lbl_Pays.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents lb_Pays As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_Pays As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle tb_Pays.
@@ -194,13 +194,13 @@ Partial Public Class _Default
     Protected WithEvents tb_NumTel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle lb_Courriel.
+    '''Contrôle lbl_Courriel.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents lb_Courriel As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_Courriel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle tb_Courriel.
@@ -212,13 +212,13 @@ Partial Public Class _Default
     Protected WithEvents tb_Courriel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle Label1.
+    '''Contrôle lbl_StatutMarital.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_StatutMarital As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Contrôle rb_Celibataire.
@@ -248,13 +248,13 @@ Partial Public Class _Default
     Protected WithEvents rb_Veuf As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Contrôle EnCouple.
+    '''Contrôle rb_EnCouple.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents EnCouple As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents rb_EnCouple As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
     '''Contrôle btn_ModifierCompte.
