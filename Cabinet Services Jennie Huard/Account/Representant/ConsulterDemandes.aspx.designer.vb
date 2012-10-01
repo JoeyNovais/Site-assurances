@@ -12,4 +12,13 @@ Option Explicit On
 
 
 Partial Public Class _Default
+
+    '''<summary>
+    '''Contrôle tbl_Demandes.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents tbl_Demandes As Global.System.Web.UI.WebControls.Table
 End Class

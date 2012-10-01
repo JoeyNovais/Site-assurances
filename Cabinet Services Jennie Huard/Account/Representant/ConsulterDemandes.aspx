@@ -4,10 +4,15 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        Bienvenue sur le site du cabinet de services financiers Jennie Huard 
-    </h2>
-    <p>
-        Vous n'êtes pas encore client? <asp:HyperLink runat="server" NavigateUrl="~/Contact.aspx">Envoyer une demande de création de compte</asp:HyperLink>
-    </p>
+    <h2>Les demandes :</h2>
+    <br />
+    <asp:Table ID="tbl_Demandes" runat="server" BorderColor="Black" 
+        BorderStyle="Solid" BorderWidth="1px" GridLines="Both" Width="786px">
+        <asp:TableRow runat="server" BorderColor="Black" BorderStyle="Solid" 
+            BorderWidth="1px">
+            <asp:TableCell runat="server">De</asp:TableCell>
+            <asp:TableCell runat="server">Type de demande</asp:TableCell>
+            <asp:TableCell runat="server">Statut</asp:TableCell>
+        </asp:TableRow>
+    </asp:Table>
 </asp:Content>

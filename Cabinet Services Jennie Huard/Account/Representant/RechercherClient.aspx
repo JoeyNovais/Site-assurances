@@ -7,7 +7,8 @@
     <h2>
         Recherche d'un client:
     </h2>
-    <asp:TextBox runat="server"></asp:TextBox>
+    <asp:Label ID="Label1" runat="server" Text="Rechercher un client :"></asp:Label>
+    <asp:TextBox runat="server" ID="tb_Recherche"></asp:TextBox>
     <br />
     <asp:Table ID="Table1" runat="server" BorderColor="Black" BorderStyle="Solid" 
         BorderWidth="1px" GridLines="Both" Width="66%">
