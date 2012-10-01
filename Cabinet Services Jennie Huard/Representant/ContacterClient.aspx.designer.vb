@@ -50,13 +50,13 @@ Partial Public Class _Default
     Protected WithEvents tb_Objet As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle TextBox1.
+    '''Contrôle tb_Texte.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents tb_Texte As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Contrôle btn_Envoyer.

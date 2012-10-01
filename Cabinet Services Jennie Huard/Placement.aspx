@@ -5,9 +5,6 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Bienvenue sur le site du cabinet de services financiers Jennie Huard 
+        Nos assurances placement:
     </h2>
-    <p>
-        Vous n'êtes pas encore client? <asp:HyperLink runat="server" NavigateUrl="~/Contact.aspx">Envoyer une demande de création de compte</asp:HyperLink>
-    </p>
 </asp:Content>

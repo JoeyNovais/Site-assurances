@@ -14,8 +14,8 @@
     <asp:TextBox ID="tb_Objet" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:TextBox ID="TextBox1" runat="server" Height="114px" 
-        style="margin-left: 14px" Width="791px"></asp:TextBox>
+    <asp:TextBox ID="tb_Texte" runat="server" Height="114px" 
+        style="margin-left: 14px" Width="791px" TextMode="MultiLine"></asp:TextBox>
     <br />
     <br />
     <asp:Button ID="btn_Envoyer" runat="server" Text="Envoyer" />
