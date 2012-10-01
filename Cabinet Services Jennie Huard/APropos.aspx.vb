@@ -4,7 +4,6 @@ Public Class Apropos
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Dim charrue As Integer
         TestConnection()
     End Sub
 
