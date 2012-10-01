@@ -75,6 +75,3 @@ C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\o
 C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.dll
 C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.xml
 C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.pdb
-C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.dll
-C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.pdb
-C:\Users\Usager\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.xml
