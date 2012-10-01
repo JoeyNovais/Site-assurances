@@ -11,32 +11,95 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class About
+Partial Public Class RechercheClient
 
     '''<summary>
-    '''Contrôle Label1.
+    '''Contrôle txtNom.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents txtNom As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle tb_Recherche.
+    '''Contrôle txtPrenom.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents tb_Recherche As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtPrenom As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Contrôle Table1.
+    '''Contrôle txtVille.
     '''</summary>
     '''<remarks>
     '''Champ généré automatiquement.
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
-    Protected WithEvents Table1 As Global.System.Web.UI.WebControls.Table
+    Protected WithEvents txtVille As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Contrôle ddTypeClient.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents ddTypeClient As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''Contrôle btnRechcercheClient.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents btnRechcercheClient As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Contrôle tableResultat.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents tableResultat As Global.System.Web.UI.WebControls.Table
+
+    '''<summary>
+    '''Contrôle TableRow1.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents TableRow1 As Global.System.Web.UI.WebControls.TableRow
+
+    '''<summary>
+    '''Contrôle TableCell1.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents TableCell1 As Global.System.Web.UI.WebControls.TableCell
+
+    '''<summary>
+    '''Contrôle TableCell2.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents TableCell2 As Global.System.Web.UI.WebControls.TableCell
+
+    '''<summary>
+    '''Contrôle TableCell3.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents TableCell3 As Global.System.Web.UI.WebControls.TableCell
 End Class
