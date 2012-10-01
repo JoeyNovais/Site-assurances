@@ -88,15 +88,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\Client\GestionAssurances.aspx" />
-    <Content Include="Account\Client\MesAssurances.aspx" />
-    <Content Include="Account\Client\ModifierDonneesPersos.aspx" />
-    <Content Include="Account\Client\MonProfil.aspx" />
-    <Content Include="Account\Representant\CreerCompte.aspx" />
-    <Content Include="Account\Representant\ContacterClient.aspx" />
-    <Content Include="Account\Representant\GererCompteClient.aspx" />
-    <Content Include="Account\Representant\ConsulterDemandes.aspx" />
-    <Content Include="Account\Representant\RechercherClient.aspx" />
+    <Content Include="Accueil.aspx" />
     <Content Include="APropos.aspx" />
     <Content Include="Account\ChangePassword.aspx" />
     <Content Include="Account\ChangePasswordSuccess.aspx" />
@@ -107,9 +99,17 @@
     <Content Include="Assurances\AssuranceInvalidite.aspx" />
     <Content Include="Assurances\AssuranceMaladie.aspx" />
     <Content Include="Assurances\AssuranceVie.aspx" />
+    <Content Include="Client\GestionAssurances.aspx" />
+    <Content Include="Client\MesAssurances.aspx" />
+    <Content Include="Client\ModifierDonneesPersos.aspx" />
+    <Content Include="Client\MonProfil.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Representant\ConsulterDemandes.aspx" />
+    <Content Include="Representant\ContacterClient.aspx" />
+    <Content Include="Representant\CreerCompte.aspx" />
+    <Content Include="Representant\GererCompteClient.aspx" />
+    <Content Include="Representant\RechercherClient.aspx" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -123,68 +123,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\Client\GestionAssurances.aspx.designer.vb">
-      <DependentUpon>GestionAssurances.aspx</DependentUpon>
+    <Compile Include="Accueil.aspx.designer.vb">
+      <DependentUpon>Accueil.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Client\GestionAssurances.aspx.vb">
-      <DependentUpon>GestionAssurances.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Account\Client\MesAssurances.aspx.designer.vb">
-      <DependentUpon>MesAssurances.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Client\MesAssurances.aspx.vb">
-      <DependentUpon>MesAssurances.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Account\Client\ModifierDonneesPersos.aspx.designer.vb">
-      <DependentUpon>ModifierDonneesPersos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Client\ModifierDonneesPersos.aspx.vb">
-      <DependentUpon>ModifierDonneesPersos.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Account\Client\MonProfil.aspx.designer.vb">
-      <DependentUpon>MonProfil.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Client\MonProfil.aspx.vb">
-      <DependentUpon>MonProfil.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Account\Representant\CreerCompte.aspx.designer.vb">
-      <DependentUpon>CreerCompte.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Representant\CreerCompte.aspx.vb">
-      <DependentUpon>CreerCompte.aspx</DependentUpon>
+    <Compile Include="Accueil.aspx.vb">
+      <DependentUpon>Accueil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Representant\ContacterClient.aspx.designer.vb">
-      <DependentUpon>ContacterClient.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Representant\ContacterClient.aspx.vb">
-      <DependentUpon>ContacterClient.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Representant\GererCompteClient.aspx.designer.vb">
-      <DependentUpon>GererCompteClient.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Representant\GererCompteClient.aspx.vb">
-      <DependentUpon>GererCompteClient.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Representant\ConsulterDemandes.aspx.designer.vb">
-      <DependentUpon>ConsulterDemandes.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Representant\ConsulterDemandes.aspx.vb">
-      <DependentUpon>ConsulterDemandes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Representant\RechercherClient.aspx.designer.vb">
-      <DependentUpon>RechercherClient.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Representant\RechercherClient.aspx.vb">
-      <DependentUpon>RechercherClient.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="APropos.aspx.designer.vb">
       <DependentUpon>APropos.aspx</DependentUpon>
@@ -228,12 +172,33 @@
       <DependentUpon>AccueilAssurances.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.vb">
-      <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Client\GestionAssurances.aspx.designer.vb">
+      <DependentUpon>GestionAssurances.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.designer.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Client\GestionAssurances.aspx.vb">
+      <DependentUpon>GestionAssurances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\MesAssurances.aspx.designer.vb">
+      <DependentUpon>MesAssurances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\MesAssurances.aspx.vb">
+      <DependentUpon>MesAssurances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\ModifierDonneesPersos.aspx.designer.vb">
+      <DependentUpon>ModifierDonneesPersos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\ModifierDonneesPersos.aspx.vb">
+      <DependentUpon>ModifierDonneesPersos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\MonProfil.aspx.designer.vb">
+      <DependentUpon>MonProfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\MonProfil.aspx.vb">
+      <DependentUpon>MonProfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -263,6 +228,41 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Representant\ConsulterDemandes.aspx.designer.vb">
+      <DependentUpon>ConsulterDemandes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\ConsulterDemandes.aspx.vb">
+      <DependentUpon>ConsulterDemandes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Representant\ContacterClient.aspx.designer.vb">
+      <DependentUpon>ContacterClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\ContacterClient.aspx.vb">
+      <DependentUpon>ContacterClient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Representant\CreerCompte.aspx.designer.vb">
+      <DependentUpon>CreerCompte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\CreerCompte.aspx.vb">
+      <DependentUpon>CreerCompte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Representant\GererCompteClient.aspx.designer.vb">
+      <DependentUpon>GererCompteClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\GererCompteClient.aspx.vb">
+      <DependentUpon>GererCompteClient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Representant\RechercherClient.aspx.designer.vb">
+      <DependentUpon>RechercherClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\RechercherClient.aspx.vb">
+      <DependentUpon>RechercherClient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
