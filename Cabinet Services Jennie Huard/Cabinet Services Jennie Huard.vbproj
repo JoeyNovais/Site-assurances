@@ -104,6 +104,7 @@
     <Content Include="Client\ModifierDonneesPersos.aspx" />
     <Content Include="Client\MonProfil.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Placement.aspx" />
     <Content Include="Representant\ConsulterDemandes.aspx" />
     <Content Include="Representant\ContacterClient.aspx" />
     <Content Include="Representant\CreerCompte.aspx" />
@@ -228,6 +229,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Placement.aspx.designer.vb">
+      <DependentUpon>Placement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Placement.aspx.vb">
+      <DependentUpon>Placement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Representant\ConsulterDemandes.aspx.designer.vb">
       <DependentUpon>ConsulterDemandes.aspx</DependentUpon>
