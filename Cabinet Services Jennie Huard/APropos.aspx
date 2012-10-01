@@ -9,5 +9,6 @@
     </h2>
     <p>
         Placez le contenu ici.
+        <asp:Button ID="Button1" runat="server" Text="Button" />
     </p>
 </asp:Content>
