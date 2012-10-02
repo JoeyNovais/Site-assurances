@@ -9,7 +9,7 @@ Public Class Global_asax
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
         ' Se déclenche lorsque la session est démarrée
-
+        
     End Sub
 
     Sub Application_BeginRequest(ByVal sender As Object, ByVal e As EventArgs)

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="RechercheClient.aspx.vb" Inherits="Cabinet_Services_Jennie_Huard.RechercheClient" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="RechercherClient.aspx.vb" Inherits="Cabinet_Services_Jennie_Huard.RechercherClient" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -6,7 +6,7 @@
         Recherche d'un client:
     </h2>
     <br />
-    Entrez un ou plusieur informations du client.
+    Entrez une ou plusieur informations du client.
     <table>
         <tr>
             <td>nom:</td>
@@ -33,8 +33,9 @@
     </table>
      <br />
     
-    <asp:Button ID="btnRechcercheClient" runat="server" Text="Rechercher" 
+    <asp:Button ID="btnRechcercheClient" runat="server" Text="Rechercher"
         Width="140px" />
+    <br />
     <br />
     
     <asp:Table ID="tableResultat" runat="server" BorderColor="Black" BorderStyle="Solid" 
@@ -45,6 +46,4 @@
             <asp:TableCell ID="TableCell3" runat="server" Enabled="False">Adresse e-mail</asp:TableCell>
         </asp:TableRow>
     </asp:Table>
-
-
 </asp:Content>

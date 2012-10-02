@@ -1,5 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class RechercheClient
+Public Class RechercherClient
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -7,46 +7,10 @@ Public Class RechercheClient
     End Sub
 
     Protected Sub btnRechcercheClient_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnRechcercheClient.Click
+        Dim Rep As New CRepresentant("test", "test123", "test@hotmail.com")
+        Dim Str As String = Rep.RechercherClient(txtNom.Text, txtPrenom.Text, txtVille.Text, ddTypeClient.SelectedValue.ToString())
 
-        Dim Prenom As String = txtPrenom.Text
-        Dim Ville As String = txtVille.Text
-        Dim Type As Char = ddTypeClient.SelectedValue()
-        Dim nbrParam As Integer = 0
-
-        Dim Requete As String = "Select nom, prenom from client where "
-        'Construction du query
-        If (txtNom.Text <> "") Then
-            'Le champs nom est utilisé
-            Requete += "nom LIKE '" + txtNom.Text + "'"
-            nbrParam += 1
-        End If
-        If (txtPrenom.Text <> "") Then
-            'Ajout d'une condition à la requête
-            If (nbrParam > 0) Then
-                Requete += " and Prenom LIKE '" + txtPrenom.Text + "'"
-            Else
-                Requete += "Prenom LIKE '" + txtPrenom.Text + "'"
-                nbrParam += 1
-            End If
-
-        End If
-        If (txtVille.Text <> "") Then
-            If (nbrParam > 0) Then
-                Requete += " and Ville LIKE '" + txtVille.Text + "'"
-            Else
-                Requete += "Ville LIKE '" + txtVille.Text + "'"
-            End If
-        End If
-        If (ddTypeClient.SelectedValue.ToString <> "D") Then
-            If (nbrParam > 0) Then
-                Requete += " and TypeClient LIKE '" + ddTypeClient.SelectedValue.ToString + "'"
-            Else
-                Requete += "TypeClient LIKE '" + ddTypeClient.SelectedValue.ToString + "'"
-            End If
-        End If
-
-
-        RechercheClient(Requete)
+       
     End Sub
     Public Sub RechercheClient(ByVal query As String)
         Try
@@ -59,15 +23,20 @@ Public Class RechercheClient
 
             Dim reader As MySqlDataReader
             reader = cmd.ExecuteReader()
-            Dim i As Integer
             While reader.Read()
                 Dim rangee As New TableRow
                 'MsgBox("" + reader.GetString(0) + " " + reader.GetString(1))
-                For i = 0 To 1
-                    Dim Cellule As New TableCell() 'initialiser une cellule pour chaques entrées
-                    Cellule.Text = reader.GetString(i)
-                    rangee.Cells.Add(Cellule)
-                Next i
+
+                Dim Cellule As New TableCell()      'initialiser une cellule pour le nom
+                Cellule.Text = reader.GetString(0)
+                rangee.Cells.Add(Cellule)           'Ajout de la cellule dans la rangée
+                Cellule = New TableCell()
+                Cellule.Text = reader.GetString(1)
+                rangee.Cells.Add(Cellule)           'Cellule pour le Prenom
+                Cellule = New TableCell()
+                Cellule.Text = "<a href=" & Chr(34) & "./ContacterClient.aspx" & Chr(34) & " onclick= " & Chr(34) & "Test" & Chr(34) &
+                " runat=" & Chr(34) & "server" & Chr(34) & ">" + reader.GetString(2) + "</a>" 'Cellule pour l'adresse courriel 'Cellule pour l'adresse courriel
+                rangee.Cells.Add(Cellule)
                 tableResultat.Rows.Add(rangee)
 
             End While
@@ -79,5 +48,10 @@ Public Class RechercheClient
         End Try
 
     End Sub
-
+    Public Sub Test()
+        Dim i As Integer
+        i = 4
+        '"<a href=" & Chr(34) & "./ContacterClient.aspx" & Chr(34) & " onclick= " & Chr(34) & "Test" & Chr(34) &
+        '" runat=" & Chr(34) & "server" & Chr(34) & ">" + reader.GetString(2) + "</a>" 'Cellule pour l'adresse courriel
+    End Sub
 End Class

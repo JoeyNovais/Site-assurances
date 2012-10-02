@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class RechercheClient
+Partial Public Class RechercherClient
 
     '''<summary>
     '''Contrôle txtNom.
