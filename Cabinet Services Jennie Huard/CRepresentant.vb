@@ -43,7 +43,7 @@ Public Class CRepresentant
         Dim nbrParam As Integer = 0
 
         ConnStr = "Database=projet;" & _
-                    "Data Source=10.40.7.22;" & _
+                    "Data Source=192.168.2.13;" & _
                     "User Id=axel;Password=admin123"
 
         Dim Requete As String = "Select cli.nom, cli.prenom,util.Courriel from client cli join utilisateur util on cli.NoClient = util.NoClient where "

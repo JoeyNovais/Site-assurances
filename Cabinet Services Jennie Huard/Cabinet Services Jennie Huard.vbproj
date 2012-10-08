@@ -173,6 +173,7 @@
       <DependentUpon>AccueilAssurances.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="CClient.vb" />
     <Compile Include="Client\GestionAssurances.aspx.designer.vb">
       <DependentUpon>GestionAssurances.aspx</DependentUpon>
     </Compile>
