@@ -32,4 +32,39 @@
         m_cli_Adresse = Adresse
         m_cli_Pays = Pays
     End Sub
+    Public Sub New(ByVal Nom, ByVal Prenom, ByVal Courriel)
+        m_cli_Nom = Nom
+        m_cli_Prenom = Prenom
+        m_cli_Courriel = Courriel
+    End Sub
+
+    'Propriété pour le Nom
+    Public Property Nom() As String
+        Get
+            Return m_cli_Nom
+        End Get
+        Set(ByVal value As String)
+            m_cli_Nom = value
+        End Set
+    End Property
+
+    'Propriété pour le Prenom
+    Public Property Prenom() As String
+        Get
+            Return m_cli_Prenom
+        End Get
+        Set(ByVal value As String)
+            m_cli_Prenom = value
+        End Set
+    End Property
+
+    'Propriété pour le Courriel
+    Public Property Courriel() As String
+        Get
+            Return m_cli_Courriel
+        End Get
+        Set(ByVal value As String)
+            m_cli_Courriel = value
+        End Set
+    End Property
 End Class
