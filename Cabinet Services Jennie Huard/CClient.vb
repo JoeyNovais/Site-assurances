@@ -17,6 +17,10 @@
 
     Private ConnStr As String
 
+    Public Sub New()
+
+    End Sub
+
     Public Sub New(ByVal Profil, ByVal MDP, ByVal Courriel, ByVal Nom, ByVal Prenom, ByVal DateNaiss, ByVal Type, ByVal Telephone, ByVal CodePost, ByVal StatutM, ByVal Ville, ByVal Adresse, ByVal Pays)
         m_cli_Profil = Profil
         m_cli_MotPasse = MDP
@@ -37,7 +41,14 @@
         m_cli_Prenom = Prenom
         m_cli_Courriel = Courriel
     End Sub
-
+    Public Property NomProfil() As String
+        Get
+            Return m_cli_Profil
+        End Get
+        Set(ByVal value As String)
+            m_cli_Profil = value
+        End Set
+    End Property
     'Propriété pour le Nom
     Public Property Nom() As String
         Get

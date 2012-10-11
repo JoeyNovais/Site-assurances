@@ -102,4 +102,40 @@ Partial Public Class RechercherClient
     '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
     '''</remarks>
     Protected WithEvents TableCell3 As Global.System.Web.UI.WebControls.TableCell
+
+    '''<summary>
+    '''Contrôle lblPos.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents lblPos As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Contrôle txtNoClient.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents txtNoClient As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Contrôle btnContacter.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents btnContacter As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Contrôle btnGerer.
+    '''</summary>
+    '''<remarks>
+    '''Champ généré automatiquement.
+    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+    '''</remarks>
+    Protected WithEvents btnGerer As Global.System.Web.UI.WebControls.Button
 End Class

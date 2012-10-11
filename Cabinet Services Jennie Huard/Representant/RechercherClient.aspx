@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="RechercherClient.aspx.vb" Inherits="Cabinet_Services_Jennie_Huard.RechercherClient" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-</asp:Content>
+    </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
         Recherche d'un client:
@@ -46,4 +46,25 @@
             <asp:TableCell ID="TableCell3" runat="server" Enabled="False">Adresse e-mail</asp:TableCell>
         </asp:TableRow>
     </asp:Table>
+    <br />
+    <table>
+        <tr>
+            <td>
+                <asp:Label ID="lblPos" runat="server" Text="Position du client:" 
+                    Visible="False"></asp:Label>
+            </td>
+            <td><asp:TextBox ID="txtNoClient" runat="server" Visible="False" /></td>
+        </tr>
+    </table>
+    <br /><br />
+    <table>
+        <tr>
+            <td><asp:Button ID="btnContacter" runat="server" Text="Contacter" Width="100px" 
+                    Visible="False" /></td>
+            <td></td>
+            <td><asp:Button ID="btnGerer" runat="server" Text="Gérer le compte" Width="100px" 
+                    Visible="False" /></td>
+        </tr>
+    </table>
+    
 </asp:Content>

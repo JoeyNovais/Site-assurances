@@ -470,6 +470,38 @@ Contrôle TableCell3.
 Champ généré automatiquement.
 Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
 </remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.RechercherClient.lblPos">
+	<summary>
+Contrôle lblPos.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.RechercherClient.txtNoClient">
+	<summary>
+Contrôle txtNoClient.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.RechercherClient.btnContacter">
+	<summary>
+Contrôle btnContacter.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.RechercherClient.btnGerer">
+	<summary>
+Contrôle btnGerer.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
 </member><member name="F:Cabinet_Services_Jennie_Huard.Site.HeadContent">
 	<summary>
 Contrôle HeadContent.
