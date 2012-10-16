@@ -16,8 +16,13 @@
         </tr>
         <tr>
             <td>Automobile</td>
-            <td><img src="/Image/caa.jpg"</td>
+            <td><img src="/Image/caa.jpg" /></td>
             <td>CAA Québec and stuff</td>
         </tr>
-    </table>   
+    </table>
+    <asp:Button ID="btn_rdv" runat="server" Text="Demander un rendez-vous" 
+        PostBackUrl="~/Client/DemandeRdv.aspx" />  
+    <asp:Button ID="btn_gestionAssurance" runat="server" 
+        Text="Demander à changer d'assurance(s)" 
+        PostBackUrl="~/Client/GestionAssurances.aspx" />
 </asp:Content>

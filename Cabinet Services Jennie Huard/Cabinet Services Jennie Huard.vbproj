@@ -99,6 +99,7 @@
     <Content Include="Assurances\AssuranceInvalidite.aspx" />
     <Content Include="Assurances\AssuranceMaladie.aspx" />
     <Content Include="Assurances\AssuranceVie.aspx" />
+    <Content Include="Client\DemandeRdv.aspx" />
     <Content Include="Client\GestionAssurances.aspx" />
     <Content Include="Client\MesAssurances.aspx" />
     <Content Include="Client\ModifierDonneesPersos.aspx" />
@@ -175,6 +176,13 @@
     </Compile>
     <Compile Include="CClient.vb" />
     <Compile Include="CDemandeClient.vb" />
+    <Compile Include="Client\DemandeRdv.aspx.designer.vb">
+      <DependentUpon>DemandeRdv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\DemandeRdv.aspx.vb">
+      <DependentUpon>DemandeRdv.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Client\GestionAssurances.aspx.designer.vb">
       <DependentUpon>GestionAssurances.aspx</DependentUpon>
     </Compile>

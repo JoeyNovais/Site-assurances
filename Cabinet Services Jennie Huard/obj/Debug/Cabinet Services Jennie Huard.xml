@@ -6,7 +6,103 @@ CabinetServicesJennieHuard
 </name>
 </assembly>
 <members>
-<member name="F:Cabinet_Services_Jennie_Huard.ModifierDonneesPersos.txtNom">
+<member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.Label1">
+	<summary>
+Contrôle Label1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.tb_monAdresse">
+	<summary>
+Contrôle tb_monAdresse.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.rfv_adresseMail">
+	<summary>
+Contrôle rfv_adresseMail.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.REV_adresseMail">
+	<summary>
+Contrôle REV_adresseMail.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.Label3">
+	<summary>
+Contrôle Label3.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.tb_mdp">
+	<summary>
+Contrôle tb_mdp.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.Label2">
+	<summary>
+Contrôle Label2.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.tb_objet">
+	<summary>
+Contrôle tb_objet.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.tb_text">
+	<summary>
+Contrôle tb_text.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.DemandeRdv.btn_Envoyer">
+	<summary>
+Contrôle btn_Envoyer.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.MesAssurances.btn_rdv">
+	<summary>
+Contrôle btn_rdv.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.MesAssurances.btn_gestionAssurance">
+	<summary>
+Contrôle btn_gestionAssurance.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.ModifierDonneesPersos.txtNom">
 	<summary>
 Contrôle txtNom.
 </summary>
@@ -94,297 +190,9 @@ Contrôle btnModifier.
 Champ généré automatiquement.
 Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
 </remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tbl_Demandes">
+</member><member name="F:Cabinet_Services_Jennie_Huard.About.Button1">
 	<summary>
-Contrôle tbl_Demandes.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtPrenom">
-	<summary>
-Contrôle txtPrenom.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtNom">
-	<summary>
-Contrôle txtNom.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtAdresse">
-	<summary>
-Contrôle txtAdresse.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.ddMess">
-	<summary>
-Contrôle ddMess.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtMessage">
-	<summary>
-Contrôle txtMessage.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.btnEnvoyer">
-	<summary>
-Contrôle btnEnvoyer.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewNom">
-	<summary>
-Contrôle lbl_NewNom.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewNomUtil">
-	<summary>
-Contrôle tb_NewNomUtil.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewPrenom">
-	<summary>
-Contrôle lbl_NewPrenom.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewPrenom">
-	<summary>
-Contrôle tb_NewPrenom.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewDateNaissance">
-	<summary>
-Contrôle lbl_NewDateNaissance.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewDateNaissance">
-	<summary>
-Contrôle tb_NewDateNaissance.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewTypeClient">
-	<summary>
-Contrôle lbl_NewTypeClient.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewCorporatif">
-	<summary>
-Contrôle rb_NewCorporatif.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewPersonnel">
-	<summary>
-Contrôle rb_NewPersonnel.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewTravailleurAutonome">
-	<summary>
-Contrôle rb_NewTravailleurAutonome.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewCodePostal">
-	<summary>
-Contrôle lbl_NewCodePostal.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewCodePostal">
-	<summary>
-Contrôle tb_NewCodePostal.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewVille">
-	<summary>
-Contrôle lbl_NewVille.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewVille">
-	<summary>
-Contrôle tb_NewVille.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewAdresse">
-	<summary>
-Contrôle lbl_NewAdresse.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewAdresse">
-	<summary>
-Contrôle tb_NewAdresse.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewPays">
-	<summary>
-Contrôle lbl_NewPays.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewPays">
-	<summary>
-Contrôle tb_NewPays.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewNumTel">
-	<summary>
-Contrôle lbl_NewNumTel.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewNumTel">
-	<summary>
-Contrôle tb_NewNumTel.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewCourriel">
-	<summary>
-Contrôle lbl_NewCourriel.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewCourriel">
-	<summary>
-Contrôle tb_NewCourriel.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewStatutMarital">
-	<summary>
-Contrôle lbl_NewStatutMarital.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewCelibataire">
-	<summary>
-Contrôle rb_NewCelibataire.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewMarie">
-	<summary>
-Contrôle rb_NewMarie.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewVeuf">
-	<summary>
-Contrôle rb_NewVeuf.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewEnCouple">
-	<summary>
-Contrôle rb_NewEnCouple.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard._Default.btn_CreerCompte">
-	<summary>
-Contrôle btn_CreerCompte.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Login.RegisterHyperLink">
-	<summary>
-Contrôle RegisterHyperLink.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Login.LoginUser">
-	<summary>
-Contrôle LoginUser.
+Contrôle Button1.
 </summary>
 	<remarks>
 Champ généré automatiquement.
@@ -502,105 +310,9 @@ Contrôle btnGerer.
 Champ généré automatiquement.
 Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
 </remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.HeadContent">
+</member><member name="F:Cabinet_Services_Jennie_Huard.ChangePassword.ChangeUserPassword">
 	<summary>
-Contrôle HeadContent.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.BoutonConnexion">
-	<summary>
-Contrôle BoutonConnexion.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Accueil">
-	<summary>
-Contrôle lb_Accueil.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.LinkButton1">
-	<summary>
-Contrôle LinkButton1.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssuranceVie">
-	<summary>
-Contrôle lb_AssuranceVie.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssuranceMaladiesGraves">
-	<summary>
-Contrôle lb_AssuranceMaladiesGraves.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssuranceInvalidite">
-	<summary>
-Contrôle lb_AssuranceInvalidite.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssurancePrets">
-	<summary>
-Contrôle lb_AssurancePrets.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Placement">
-	<summary>
-Contrôle lb_Placement.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_APropos">
-	<summary>
-Contrôle lb_APropos.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Contacts">
-	<summary>
-Contrôle lb_Contacts.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.Site.MainContent">
-	<summary>
-Contrôle MainContent.
-</summary>
-	<remarks>
-Champ généré automatiquement.
-Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-</remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.About.Button1">
-	<summary>
-Contrôle Button1.
+Contrôle ChangeUserPassword.
 </summary>
 	<remarks>
 Champ généré automatiquement.
@@ -870,6 +582,319 @@ Contrôle hlModInfo.
 Champ généré automatiquement.
 Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
 </remarks>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Application">
+	<summary>
+ Retourne des informations sur l'application actuelle.
+ </summary>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Computer">
+	<summary>
+ Retourne les informations relatives à l'ordinateur hôte.
+ </summary>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.User">
+	<summary>
+ Retourne des informations pour l'utilisateur Web actuel.
+ </summary>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Request">
+	<summary>
+ Retourne l'objet Request.
+ </summary>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Response">
+	<summary>
+ Retourne l'objet Response.
+ </summary>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Log">
+	<summary>
+ Retourne l'objet de journal Asp.
+ </summary>
+</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.WebServices">
+	<summary>
+ Fournit un accès au WebServices ajoutés à ce projet.
+ </summary>
+</member><member name="T:Cabinet_Services_Jennie_Huard.My.MyWebExtension">
+	<summary>
+ Module utilisé pour définir les propriétés qui sont disponibles dans l'espace de noms My pour les projets Web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtPrenom">
+	<summary>
+Contrôle txtPrenom.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtNom">
+	<summary>
+Contrôle txtNom.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtAdresse">
+	<summary>
+Contrôle txtAdresse.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.ddMess">
+	<summary>
+Contrôle ddMess.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.txtMessage">
+	<summary>
+Contrôle txtMessage.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Contact.btnEnvoyer">
+	<summary>
+Contrôle btnEnvoyer.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tbl_Demandes">
+	<summary>
+Contrôle tbl_Demandes.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewNom">
+	<summary>
+Contrôle lbl_NewNom.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewNomUtil">
+	<summary>
+Contrôle tb_NewNomUtil.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewPrenom">
+	<summary>
+Contrôle lbl_NewPrenom.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewPrenom">
+	<summary>
+Contrôle tb_NewPrenom.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewDateNaissance">
+	<summary>
+Contrôle lbl_NewDateNaissance.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewDateNaissance">
+	<summary>
+Contrôle tb_NewDateNaissance.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewTypeClient">
+	<summary>
+Contrôle lbl_NewTypeClient.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewCorporatif">
+	<summary>
+Contrôle rb_NewCorporatif.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewPersonnel">
+	<summary>
+Contrôle rb_NewPersonnel.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewTravailleurAutonome">
+	<summary>
+Contrôle rb_NewTravailleurAutonome.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewCodePostal">
+	<summary>
+Contrôle lbl_NewCodePostal.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewCodePostal">
+	<summary>
+Contrôle tb_NewCodePostal.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewVille">
+	<summary>
+Contrôle lbl_NewVille.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewVille">
+	<summary>
+Contrôle tb_NewVille.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewAdresse">
+	<summary>
+Contrôle lbl_NewAdresse.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewAdresse">
+	<summary>
+Contrôle tb_NewAdresse.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewPays">
+	<summary>
+Contrôle lbl_NewPays.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewPays">
+	<summary>
+Contrôle tb_NewPays.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewNumTel">
+	<summary>
+Contrôle lbl_NewNumTel.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewNumTel">
+	<summary>
+Contrôle tb_NewNumTel.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewCourriel">
+	<summary>
+Contrôle lbl_NewCourriel.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.tb_NewCourriel">
+	<summary>
+Contrôle tb_NewCourriel.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.lbl_NewStatutMarital">
+	<summary>
+Contrôle lbl_NewStatutMarital.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewCelibataire">
+	<summary>
+Contrôle rb_NewCelibataire.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewMarie">
+	<summary>
+Contrôle rb_NewMarie.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewVeuf">
+	<summary>
+Contrôle rb_NewVeuf.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.rb_NewEnCouple">
+	<summary>
+Contrôle rb_NewEnCouple.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard._Default.btn_CreerCompte">
+	<summary>
+Contrôle btn_CreerCompte.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
 </member><member name="F:Cabinet_Services_Jennie_Huard._Default.Label1">
 	<summary>
 Contrôle Label1.
@@ -918,42 +943,113 @@ Contrôle btn_Envoyer.
 Champ généré automatiquement.
 Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
 </remarks>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Application">
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.HeadContent">
 	<summary>
- Retourne des informations sur l'application actuelle.
- </summary>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Computer">
+Contrôle HeadContent.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.BoutonConnexion">
 	<summary>
- Retourne les informations relatives à l'ordinateur hôte.
- </summary>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.User">
+Contrôle BoutonConnexion.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Accueil">
 	<summary>
- Retourne des informations pour l'utilisateur Web actuel.
- </summary>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Request">
+Contrôle lb_Accueil.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.LinkButton1">
 	<summary>
- Retourne l'objet Request.
- </summary>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Response">
+Contrôle LinkButton1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssuranceVie">
 	<summary>
- Retourne l'objet Response.
- </summary>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.Log">
+Contrôle lb_AssuranceVie.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssuranceMaladiesGraves">
 	<summary>
- Retourne l'objet de journal Asp.
- </summary>
-</member><member name="P:Cabinet_Services_Jennie_Huard.My.MyWebExtension.WebServices">
+Contrôle lb_AssuranceMaladiesGraves.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssuranceInvalidite">
 	<summary>
- Fournit un accès au WebServices ajoutés à ce projet.
- </summary>
-</member><member name="T:Cabinet_Services_Jennie_Huard.My.MyWebExtension">
+Contrôle lb_AssuranceInvalidite.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_AssurancePrets">
 	<summary>
- Module utilisé pour définir les propriétés qui sont disponibles dans l'espace de noms My pour les projets Web.
- </summary>
-	<remarks></remarks>
-</member><member name="F:Cabinet_Services_Jennie_Huard.ChangePassword.ChangeUserPassword">
+Contrôle lb_AssurancePrets.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Placement">
 	<summary>
-Contrôle ChangeUserPassword.
+Contrôle lb_Placement.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_APropos">
+	<summary>
+Contrôle lb_APropos.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.lb_Contacts">
+	<summary>
+Contrôle lb_Contacts.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Site.MainContent">
+	<summary>
+Contrôle MainContent.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Login.RegisterHyperLink">
+	<summary>
+Contrôle RegisterHyperLink.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:Cabinet_Services_Jennie_Huard.Login.LoginUser">
+	<summary>
+Contrôle LoginUser.
 </summary>
 	<remarks>
 Champ généré automatiquement.

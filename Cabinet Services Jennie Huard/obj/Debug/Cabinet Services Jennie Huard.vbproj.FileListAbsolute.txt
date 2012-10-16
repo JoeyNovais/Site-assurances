@@ -88,3 +88,13 @@ C:\Users\Axel\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj
 C:\Users\Axel\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.dll
 C:\Users\Axel\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.pdb
 C:\Users\Axel\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.xml
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.dll
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.pdb
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.xml
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet_Services_Jennie_Huard.Resources.resources
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.dll
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.xml
+C:\Users\Joey\Documents\GitHub\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.pdb
