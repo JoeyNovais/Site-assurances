@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class About
+Partial Public Class Apropos
 
     '''<summary>
     '''Contrôle Button1.
