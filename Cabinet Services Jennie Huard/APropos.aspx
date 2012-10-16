@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Qui sommes-nous" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false"
-    CodeBehind="APropos.aspx.vb" Inherits="Cabinet_Services_Jennie_Huard.About" %>
+﻿<%@ Page Title="Qui sommes-nous" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="APropos.aspx.vb" Inherits="Cabinet_Services_Jennie_Huard.About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

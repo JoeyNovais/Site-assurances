@@ -95,16 +95,16 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Assurances\AccueilAssurances.aspx" />
-    <Content Include="Assurances\AssurancePret.aspx" />
     <Content Include="Assurances\AssuranceInvalidite.aspx" />
     <Content Include="Assurances\AssuranceMaladie.aspx" />
+    <Content Include="Assurances\AssurancePret.aspx" />
     <Content Include="Assurances\AssuranceVie.aspx" />
-    <Content Include="Client\DemandeRdv.aspx" />
     <Content Include="Client\GestionAssurances.aspx" />
     <Content Include="Client\MesAssurances.aspx" />
     <Content Include="Client\ModifierDonneesPersos.aspx" />
     <Content Include="Client\MonProfil.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="DemandeRdv.aspx" />
     <Content Include="Placement.aspx" />
     <Content Include="Representant\ConsulterDemandes.aspx" />
     <Content Include="Representant\ContacterClient.aspx" />
@@ -174,15 +174,36 @@
       <DependentUpon>AccueilAssurances.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CClient.vb" />
-    <Compile Include="CDemandeClient.vb" />
-    <Compile Include="Client\DemandeRdv.aspx.designer.vb">
-      <DependentUpon>DemandeRdv.aspx</DependentUpon>
+    <Compile Include="Assurances\AssuranceInvalidite.aspx.designer.vb">
+      <DependentUpon>AssuranceInvalidite.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Client\DemandeRdv.aspx.vb">
-      <DependentUpon>DemandeRdv.aspx</DependentUpon>
+    <Compile Include="Assurances\AssuranceInvalidite.aspx.vb">
+      <DependentUpon>AssuranceInvalidite.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Assurances\AssuranceMaladie.aspx.designer.vb">
+      <DependentUpon>AssuranceMaladie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assurances\AssuranceMaladie.aspx.vb">
+      <DependentUpon>AssuranceMaladie.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Assurances\AssurancePret.aspx.designer.vb">
+      <DependentUpon>AssurancePret.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assurances\AssurancePret.aspx.vb">
+      <DependentUpon>AssurancePret.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Assurances\AssuranceVie.aspx.designer.vb">
+      <DependentUpon>AssuranceVie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assurances\AssuranceVie.aspx.vb">
+      <DependentUpon>AssuranceVie.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CClient.vb" />
+    <Compile Include="CDemandeClient.vb" />
     <Compile Include="Client\GestionAssurances.aspx.designer.vb">
       <DependentUpon>GestionAssurances.aspx</DependentUpon>
     </Compile>
@@ -219,6 +240,13 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="CRepresentant.vb" />
+    <Compile Include="DemandeRdv.aspx.designer.vb">
+      <DependentUpon>DemandeRdv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemandeRdv.aspx.vb">
+      <DependentUpon>DemandeRdv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

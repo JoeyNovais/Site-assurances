@@ -1,5 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class Apropos
+Public Class APropos
     Inherits System.Web.UI.Page
 
 

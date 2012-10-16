@@ -83,6 +83,7 @@ CREATE TABLE DemandeIns
 insert into Representant values ('admin', 'admin123','kojibobo@hotmail.com');
 insert into Client values('Axel','admin123','cestPlusFortQueMoi@ouiCestCommeCa.partoutAutourDeNous','Gauthier','Axel','2001-09-11', 'P', '418-836-0958','G621N3','M','St-Teets','6 rue Albert-le-prince','Hobo');
 insert into Client values('Math','admin123','test@bilboa.com','Gauthier','Mathieu','2001-09-11', 'P', '418-836-1058','G621N2','M','Levis','103 Rue industrielle','Canada');
+insert into Client values('Joey','admin123','novaisjoey@gmail.com','Novais','Joey','2001-09-11','p','418-836-1058','G621N2','M','Reichstett','104 Rue industrielle','France');
 insert into Compagnie values (1,'http://hobo.com/','CACA Québec','Image/caa.jpg');
 insert into Compagnie values (2, 'http://www.desjardins.com/fr/bienvenue.jsp','Desjardins', 'Image/desjardin.png');
 insert into Compagnie values (3, 'http://mathieu.com/', 'Assurance Mathieu', DEFAULT);
