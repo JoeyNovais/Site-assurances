@@ -1,13 +1,5 @@
-﻿<%@ Page Title="Qui sommes-nous" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false"
-    Inherits="Cabinet_Services_Jennie_Huard.About" %>
-
-<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="AssuranceVie.aspx.vb" Inherits="Cabinet_Services_Jennie_Huard.AssuranceVie" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        Nos assurances vie:
-    </h2>
-    <p>
-        Placez le contenu ici.
-    </p>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 </asp:Content>
