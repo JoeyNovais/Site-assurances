@@ -2,6 +2,28 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <script src = "../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $(".ctlContact").click(function () {
+                    var Id = $(this).attr('id');
+                    Id = Id.substring(19, (Id.Length));
+                    window.location.href = "../Representant/ContacterClient.aspx?idPro=" + Id;
+                    return false;
+                });
+                $(".ctlGerer").click(function () {
+                    var Id = $(this).attr('id');
+                    Id = Id.substring(20, (Id.Length));
+                    window.location.href = "../Representant/GererCompteClient.aspx?idPro=" + Id;
+                    return false;
+                });
+            });
+        </script>
+     
+    
+    
+    
     <h2>
         Recherche d'un client:
     </h2>
@@ -36,35 +58,17 @@
     <asp:Button ID="btnRechcercheClient" runat="server" Text="Rechercher"
         Width="140px" />
     <br />
-    <br />
     
     <asp:Table ID="tableResultat" runat="server" BorderColor="Black" BorderStyle="Solid" 
-        BorderWidth="1px" GridLines="Both" Width="66%">
-        <asp:TableRow ID="TableRow1" runat="server">
-            <asp:TableCell ID="TableCell1" runat="server" Enabled="False">Nom</asp:TableCell>
-            <asp:TableCell ID="TableCell2" runat="server" Enabled="False">Prénom</asp:TableCell>
-            <asp:TableCell ID="TableCell3" runat="server" Enabled="False">Adresse e-mail</asp:TableCell>
+        BorderWidth="1px" GridLines="Both" Width="90%">
+        <asp:TableRow ID="ColoneHaut" runat="server">
+            <asp:TableCell runat="server" Width="20%">Nom</asp:TableCell>
+            <asp:TableCell runat="server" Width="15%">Prénom</asp:TableCell>
+            <asp:TableCell runat="server" width="15%">Ville</asp:TableCell>
+            <asp:TableCell runat="server" width="30%">Adresse e-mail</asp:TableCell>
+            <asp:TableCell runat="server" Width="20%">Action</asp:TableCell>
         </asp:TableRow>
     </asp:Table>
     <br />
-    <table>
-        <tr>
-            <td>
-                <asp:Label ID="lblPos" runat="server" Text="Position du client:" 
-                    Visible="False"></asp:Label>
-            </td>
-            <td><asp:TextBox ID="txtNoClient" runat="server" Visible="False" /></td>
-        </tr>
-    </table>
-    <br /><br />
-    <table>
-        <tr>
-            <td><asp:Button ID="btnContacter" runat="server" Text="Contacter" Width="100px" 
-                    Visible="False" /></td>
-            <td></td>
-            <td><asp:Button ID="btnGerer" runat="server" Text="Gérer le compte" Width="100px" 
-                    Visible="False" /></td>
-        </tr>
-    </table>
     
 </asp:Content>

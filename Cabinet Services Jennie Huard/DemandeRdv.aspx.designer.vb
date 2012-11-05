@@ -50,24 +50,6 @@ Partial Public Class DemandeRdv
     Protected WithEvents REV_adresseMail As Global.System.Web.UI.WebControls.RegularExpressionValidator
 
     '''<summary>
-    '''Contrôle Label3.
-    '''</summary>
-    '''<remarks>
-    '''Champ généré automatiquement.
-    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-    '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Contrôle tb_mdp.
-    '''</summary>
-    '''<remarks>
-    '''Champ généré automatiquement.
-    '''Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-    '''</remarks>
-    Protected WithEvents tb_mdp As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''Contrôle Label2.
     '''</summary>
     '''<remarks>

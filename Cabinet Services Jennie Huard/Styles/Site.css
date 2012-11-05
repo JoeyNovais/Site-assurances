@@ -229,6 +229,20 @@ first child of the left and right table columns */
 	border-radius: 0 0 10px 10px;
 }
 
+.ControlValidCourriel
+{
+    Position:relative;
+    left:-175px;
+}
+
+.Message
+{
+    max-height:200px;
+    max-width:500px;
+    min-height:200px;
+    min-width:500px;
+}
+
 #MenuGlobal ul a:first-child li{
 	border-left: 1px solid #222;
 }
@@ -438,4 +452,14 @@ div.accountInfo
 {
     text-align: right;
     padding-right: 10px;
+}
+
+.ctlContact
+{ 
+	color: Blue;
+}
+
+.ctlGerer
+{
+	color: Green;
 }

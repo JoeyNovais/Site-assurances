@@ -105,17 +105,27 @@
     <Content Include="Client\MonProfil.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="DemandeRdv.aspx" />
+    <Content Include="Database\Assurances.accdb" />
+    <Content Include="Database\DBAssurance.sql" />
+    <Content Include="DemandeRdv.aspx" />
+    <Content Include="Image\caa.jpg" />
+    <Content Include="Image\desjardin.png" />
+    <Content Include="Image\maturite.png" />
     <Content Include="Placement.aspx" />
     <Content Include="Representant\ConsulterDemandes.aspx" />
     <Content Include="Representant\ContacterClient.aspx" />
     <Content Include="Representant\CreerCompte.aspx" />
+    <Content Include="Representant\DemandeInscription.aspx" />
     <Content Include="Representant\GererCompteClient.aspx" />
+    <Content Include="Representant\GérerListeAssurances.aspx" />
     <Content Include="Representant\RechercherClient.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Utilisateur\Connexion.aspx" />
+    <Content Include="Utilisateur\CreerCompte.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -204,6 +214,10 @@
     </Compile>
     <Compile Include="CClient.vb" />
     <Compile Include="CDemandeClient.vb" />
+    <Compile Include="CClient.vb" />
+    <Compile Include="CDemande.vb" />
+    <Compile Include="CDemandeClient.vb" />
+    <Compile Include="CDemandeIns.vb" />
     <Compile Include="Client\GestionAssurances.aspx.designer.vb">
       <DependentUpon>GestionAssurances.aspx</DependentUpon>
     </Compile>
@@ -246,6 +260,7 @@
     <Compile Include="DemandeRdv.aspx.vb">
       <DependentUpon>DemandeRdv.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -281,14 +296,14 @@
     </Compile>
     <Compile Include="Representant\ConsulterDemandes.aspx.vb">
       <DependentUpon>ConsulterDemandes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Representant\ContacterClient.aspx.designer.vb">
       <DependentUpon>ContacterClient.aspx</DependentUpon>
     </Compile>
     <Compile Include="Representant\ContacterClient.aspx.vb">
       <DependentUpon>ContacterClient.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Representant\CreerCompte.aspx.designer.vb">
       <DependentUpon>CreerCompte.aspx</DependentUpon>
@@ -297,12 +312,26 @@
       <DependentUpon>CreerCompte.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Representant\DemandeInscription.aspx.designer.vb">
+      <DependentUpon>DemandeInscription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\DemandeInscription.aspx.vb">
+      <DependentUpon>DemandeInscription.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Representant\GererCompteClient.aspx.designer.vb">
       <DependentUpon>GererCompteClient.aspx</DependentUpon>
     </Compile>
     <Compile Include="Representant\GererCompteClient.aspx.vb">
       <DependentUpon>GererCompteClient.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Representant\GérerListeAssurances.aspx.designer.vb">
+      <DependentUpon>GérerListeAssurances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Representant\GérerListeAssurances.aspx.vb">
+      <DependentUpon>GérerListeAssurances.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Representant\RechercherClient.aspx.designer.vb">
       <DependentUpon>RechercherClient.aspx</DependentUpon>
@@ -317,6 +346,20 @@
     <Compile Include="Site.Master.vb">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilisateur\Connexion.aspx.designer.vb">
+      <DependentUpon>Connexion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilisateur\Connexion.aspx.vb">
+      <DependentUpon>Connexion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Utilisateur\CreerCompte.aspx.designer.vb">
+      <DependentUpon>CreerCompte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilisateur\CreerCompte.aspx.vb">
+      <DependentUpon>CreerCompte.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -351,7 +394,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2394</DevelopmentServerPort>
+          <DevelopmentServerPort>11937</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

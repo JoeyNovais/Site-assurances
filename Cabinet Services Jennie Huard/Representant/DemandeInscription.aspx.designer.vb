@@ -11,5 +11,5 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class ConsulterDemandes
+Partial Public Class DemandeInscription
 End Class

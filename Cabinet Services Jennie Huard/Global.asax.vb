@@ -9,8 +9,6 @@ Public Class Global_asax
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
         ' Se déclenche lorsque la session est démarrée
-        Session("resultat") = New ArrayList
-        Session("SelClient") = New CClient
     End Sub
 
     Sub Application_BeginRequest(ByVal sender As Object, ByVal e As EventArgs)
