@@ -17,6 +17,7 @@ Public Class DemandeRdv
 
         mail.IsBodyHtml = True
         Dim smtp As SmtpClient = New SmtpClient()
+        smtp.Port = 587
         smtp.Host = "smtp.gmail.com"
         smtp.Credentials = New System.Net.NetworkCredential("noreply.servicesfinanciersjh@gmail.com", "qwer1234!")
         smtp.EnableSsl = True

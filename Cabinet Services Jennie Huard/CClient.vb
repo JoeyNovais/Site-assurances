@@ -224,8 +224,9 @@ Public Class CClient
     Public Function AssuranceClient()
         Dim Requete As String = "SELECT Service.Ser_Categorie, Compagnie.Com_Image, Compagnie.Com_LienUrl, Compagnie.Com_Nom, Service.Ser_Nom, Service.No_Ser FROM Service INNER JOIN Compagnie ON Service.Com_Nom=Compagnie.Com_Nom where Service.NomClient='" & m_NomClient & "' order by Service.No_ser"
         Dim TableauAss As New ArrayList
+        Dim connexion As New OleDbConnection(ConnStr)
         Try
-            Dim connexion As New OleDbConnection(ConnStr)
+
             Dim cmd As New OleDbCommand(Requete, connexion)
             connexion.Open()
             Dim reader As OleDbDataReader
@@ -239,15 +240,12 @@ Public Class CClient
                 TableauAss.Add(reader.GetInt32(5).ToString)
             End While
             reader.Close()
-            connexion.Close()
+
             'MsgBox(TableauAss.Item(0) & TableauAss.Item(1) & TableauAss.Item(2) & TableauAss.Item(3) & TableauAss.Item(4))
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
-
-        If (TableauAss.Count = 0) Then
-            MsgBox("Vous n'êtes pas connecté.")
-        End If
+        connexion.Close()
         Return TableauAss
     End Function
 

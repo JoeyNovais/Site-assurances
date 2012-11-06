@@ -11,9 +11,8 @@ Public Class CRepresentant
         m_MotPasseRep = MDP
         m_CourrielRep = ""
 
-        Dim Chemin As String = System.AppDomain.CurrentDomain.BaseDirectory()
         'String de Connection à la bd
-        ConnStr = "Data Source=" & Chemin & "Database\Assurances.accdb; Provider=Microsoft.ACE.OLEDB.12.0; Persist Security Info=False;"
+        ConnStr = "Data Source=" & System.AppDomain.CurrentDomain.BaseDirectory() & "Database\Assurances.accdb; Provider=Microsoft.ACE.OLEDB.12.0; Persist Security Info=False;"
 
     End Sub
 

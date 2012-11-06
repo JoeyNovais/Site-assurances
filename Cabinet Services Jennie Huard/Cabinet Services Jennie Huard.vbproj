@@ -104,13 +104,11 @@
     <Content Include="Client\ModifierDonneesPersos.aspx" />
     <Content Include="Client\MonProfil.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="DemandeRdv.aspx" />
     <Content Include="Database\Assurances.accdb" />
     <Content Include="Database\DBAssurance.sql" />
     <Content Include="DemandeRdv.aspx" />
     <Content Include="Image\caa.jpg" />
     <Content Include="Image\desjardin.png" />
-    <Content Include="Image\maturite.png" />
     <Content Include="Placement.aspx" />
     <Content Include="Representant\ConsulterDemandes.aspx" />
     <Content Include="Representant\ContacterClient.aspx" />
@@ -214,9 +212,7 @@
     </Compile>
     <Compile Include="CClient.vb" />
     <Compile Include="CDemandeClient.vb" />
-    <Compile Include="CClient.vb" />
     <Compile Include="CDemande.vb" />
-    <Compile Include="CDemandeClient.vb" />
     <Compile Include="CDemandeIns.vb" />
     <Compile Include="Client\GestionAssurances.aspx.designer.vb">
       <DependentUpon>GestionAssurances.aspx</DependentUpon>
@@ -259,7 +255,6 @@
     </Compile>
     <Compile Include="DemandeRdv.aspx.vb">
       <DependentUpon>DemandeRdv.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">

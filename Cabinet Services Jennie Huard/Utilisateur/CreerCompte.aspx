@@ -163,9 +163,7 @@
             <td class="style3"><asp:TextBox ID="txtCodePostal" runat="server" MaxLength="6" >A1A1A1</asp:TextBox>
                 &nbsp;&nbsp;&nbsp;
                 <asp:RegularExpressionValidator ID="revCodePostal" runat="server" 
-                    ControlToValidate="txtCodePostal" ForeColor="Red" 
-                    
-                    
+                    ControlToValidate="txtCodePostal" ForeColor="Red"
                     ValidationExpression="^(\d{5}-\d{4}|\d{5}|\d{9})$|^([a-zA-Z]\d[a-zA-Z]( )?\d[a-zA-Z]\d)$">Le code postal n&#39;est pas valide.</asp:RegularExpressionValidator>
             </td>
         </tr>
@@ -188,7 +186,7 @@
     </table>
     <asp:ValidationSummary ID="vsErreurs" runat="server" ForeColor="Red" 
         HeaderText="Certaines erreurs sont survenues :" DisplayMode="List" 
-        Width="889px" />
+        Width="896px" />
     <br />
     Précisions : 
     <br />
@@ -200,7 +198,7 @@
     <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
     <br />
     <br />
-        <asp:Button ID="btnEnvoyer" runat="server" Text="Envoyer la demande." />
+    <asp:Button ID="btnEnvoyer" runat="server" Text="Envoyer la demande." />
     <br />
     <br />
     <br />

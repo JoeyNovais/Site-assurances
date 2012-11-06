@@ -108,3 +108,13 @@ C:\Users\mat\Desktop\Site-assurances Axel v2\Cabinet Services Jennie Huard\obj\D
 C:\Users\mat\Desktop\Site-assurances Axel v2\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.dll
 C:\Users\mat\Desktop\Site-assurances Axel v2\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.xml
 C:\Users\mat\Desktop\Site-assurances Axel v2\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.pdb
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet_Services_Jennie_Huard.Resources.resources
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.dll
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.xml
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\obj\Debug\Cabinet Services Jennie Huard.pdb
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.dll
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.pdb
+C:\Users\mat\Documents\GitHub\Assurances v2\Site-assurances\Cabinet Services Jennie Huard\bin\Cabinet Services Jennie Huard.xml
